@@ -1,0 +1,22 @@
+The compiling instructions of source code::
+
+1. The train and test files has to be in the same folder as the source code folder.
+2. The main file is sxe140630_Assignment1.java 
+3. From the command prompt set the path to the current folder where source code is present and complie the code using the command 
+	
+	javac sxe140630_Assignment1.java
+4. This will generate the class files in the same folder.
+5. Execute the code by running the command 
+	
+	java sxe140630_Assignment1
+6. The console will print "enter the file names"
+7. Type the file names in the following format(the file names should be separated by space)
+
+	train-1.dat.txt test-1.dat.txt (after entering the file names press enter .. the code will run and output successfully)
+	train-2.dat.txt test-2.dat.txt
+	train-3.dat.txt test-3.dat.txt
+	train.dat.txt test.dat.txt
+	
+8. The output is a decision tree diagram and it gives the accuracy with both test and train data.
+
+9. The platform used while developing the code is windows8.
