@@ -1,0 +1,20 @@
+The compiling instructions of source code::
+
+1. The model and test files provided has to be in the same folder as the source code folder. These are the sample model and test files to run the code.
+2. The main file is Viterbidecoding.java 
+3. From the command prompt set the path to the current folder where source code is present and complie the code using the command 
+	
+	javac Viterbidecoding.java
+4. This will generate the class files in the same folder.
+5. Execute the code by running the command 
+	
+	java Viterbidecoding
+6. The console will print "enter the file names"
+7. Type the Model file name, Test file name(After typing the model file name press enter and then enter the test file name )
+
+	model.txt
+	test.dat.txt
+	
+8. The output is the sequence of states that produce the maximum likely path. The states start from s0
+
+9. The platform used while developing the code is windows8.

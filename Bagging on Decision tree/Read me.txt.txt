@@ -1,0 +1,21 @@
+The compiling instructions of source code::
+
+1. The train and test files has to be in the same folder as the source code folder.(Please copy test and train file pairs from Test inputs folder to Code folder before executing)
+2. The main file is sxe140630_Assignment5.java 
+3. From the command prompt set the path to the current folder where source code is present and complie the code using the command 
+	
+	javac sxe140630_Assignment5.java
+4. This will generate the class files in the same folder.
+5. Execute the code by running the command 
+	
+	java sxe140630_Assignment5
+6. The console will print "Entry format :: Trainfile	Testfile	NoOfBags"
+7. Type the file names in the following format(each input should be separated by space)
+
+	train-1.dat.txt test-1.dat.txt 10 (after entering the number of bags press enter .. the code will run and output successfully)
+	
+8. The output consists of three lines. 
+	1. Accuracy on testing set without Bagging.(Only one decision tree is constructed with the given train data)
+	2. Accuracy on testing set with Bagging.(The procedure used for bagging is explained in the Bagging explanation document).
+
+9. The platform used while developing the code is windows8

@@ -1,0 +1,19 @@
+The compiling instructions of source code::
+
+1. The train and test files has to be in the same folder as the source code folder.
+2. The main file is singlelayerperceptron.java 
+3. From the command prompt set the path to the current folder where source code is present and complie the code using the command 
+	
+	javac singlelayerperceptron.java
+4. This will generate the class files in the same folder.
+5. Execute the code by running the command 
+	
+	java singlelayerperceptron
+6. The console will print "enter fields in the order each separated by a space 1.training file 2.test file 3.learning rate 4.the number of iterations"
+7. Type the train file name, test file name, learning rate , number of iterations in the following format(all fields have a space between them)
+
+	train.dat.txt test.dat.txt 0.01 2000(after entering 4 field values press enter .. the code will run and output successfully)
+	
+8. The output is the accuracy with both test and train data.
+
+9. The platform used while developing the code is windows8.
